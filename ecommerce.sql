@@ -665,7 +665,7 @@ CREATE TABLE IF NOT EXISTS `paypal_settings` (
 
 -- Dumping data for table ecommerce.paypal_settings: ~1 rows (approximately)
 INSERT INTO `paypal_settings` (`id`, `status`, `mode`, `country_name`, `currency_name`, `currency_rate`, `client_id`, `secret_key`, `created_at`, `updated_at`) VALUES
-	(1, 1, 0, 'United States', 'USD', 1, 'AajfHkWhti3KxySvsYm4jiI2EW5Z7rGy9n_kiDclTbbE3QIzttUx3DLetu4PFms0mOTt1X_9NsOBRBFs', 'EDwg3lYW-5dG0QpghmaQltM8jsVPQeGLDrNVYGX7wVSXqYPIyUZ7EtiHy7avUC9bCp-bc8Mv80qI42Ae', '2023-04-12 01:23:22', '2025-01-01 09:01:32');
+	(1, 1, 0, 'United States', 'USD', 1, '', '', '2023-04-12 01:23:22', '2025-01-01 09:01:32');
 
 -- Dumping structure for table ecommerce.personal_access_tokens
 CREATE TABLE IF NOT EXISTS `personal_access_tokens` (
@@ -968,7 +968,7 @@ CREATE TABLE IF NOT EXISTS `razorpay_settings` (
 
 -- Dumping data for table ecommerce.razorpay_settings: ~1 rows (approximately)
 INSERT INTO `razorpay_settings` (`id`, `status`, `country_name`, `currency_name`, `currency_rate`, `razorpay_key`, `razorpay_secret_key`, `created_at`, `updated_at`) VALUES
-	(1, 1, 'India', 'INR', 81.85, 'rzp_test_K7CipNQYyyMPiS', 'zSBmNMorJrirOrnDrbOd1ALO', '2023-04-14 22:00:50', '2023-04-14 22:51:59');
+	(1, 1, 'India', 'INR', 81.85, '', '', '2023-04-14 22:00:50', '2023-04-14 22:51:59');
 
 -- Dumping structure for table ecommerce.shipping_rules
 CREATE TABLE IF NOT EXISTS `shipping_rules` (
@@ -1026,7 +1026,7 @@ CREATE TABLE IF NOT EXISTS `stripe_settings` (
 
 -- Dumping data for table ecommerce.stripe_settings: ~1 rows (approximately)
 INSERT INTO `stripe_settings` (`id`, `status`, `mode`, `country_name`, `currency_name`, `currency_rate`, `client_id`, `secret_key`, `created_at`, `updated_at`) VALUES
-	(1, 1, 0, 'United States', 'USD', 1, 'pk_test_51MwNFdKW5d0gpOwDt4kj2AWwubKMI8bzSHHjNenilgX91YyHB3O3tB3yD5do2dAl8qpUCFWM6wuMqQeg12ZMnQv600sfwl8Hoq', 'sk_test_51MwNFdKW5d0gpOwDnak9F1qPBvErrGAOHAMdWQ4wHaaWhRDhOtFRw80i8XgiOnDW0ChbYt2yhKdZbR3llR9IkStD00IEVi0Q9z', '2023-04-13 03:42:51', '2023-04-13 05:05:33');
+	(1, 1, 0, 'United States', 'USD', 1, '', '', '2023-04-13 03:42:51', '2023-04-13 05:05:33');
 
 -- Dumping structure for table ecommerce.sub_categories
 CREATE TABLE IF NOT EXISTS `sub_categories` (
